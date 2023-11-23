@@ -1,0 +1,60 @@
+﻿
+<div class="text-center">
+
+    <h1 class="display-4">Minha Lista de Contato</h1>
+
+    <div class="">
+        <a role="button" class="btn btn-primary" asp-controller="Contato" asp-action="Criar">Novo contato</a>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Email</th>
+                <th scope="col">Celular</th>
+                <th scope="col">Edit</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Matheus/td>
+                <td>Matheusscfr@gmail.com</td>
+                <td>(81)22222-2222</td>
+                <td>
+                    <div class="btn-group" role="group" >
+                        <a role="button" class="btn btn-secondary" asp-controller="Contato" asp-action="Editar">Editar</a>
+                        <a role="button" class="btn btn-secondary"asp-controller="Contato" asp-action="ApagarConfirm">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Jacob</td>
+                <td>Thornton</td>
+                <td>fat</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-secondary">Editar</a>
+                        <a role="button" class="btn btn-secondary">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Larry</td>
+                <td>the Bird</td>
+                <td>twitter</td>
+                <td>
+                    <div class="btn-group" role="group">
+                        <a role="button" class="btn btn-secondary">Editar</a>
+                        <a role="button" class="btn btn-secondary">Apagar</a>
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    
+</div>
